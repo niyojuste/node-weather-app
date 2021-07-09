@@ -20,7 +20,8 @@ const forecast = (longitude, latitude, callback) => {
 					data.temperature +
 					' degrees outside. It feels like ' +
 					data.feelslike +
-					' degrees outside.'
+					' degrees outside. The humidity is ' +
+					data.humidity + '%.'
 			)
 		}
 	})
